@@ -31,11 +31,11 @@ export default function ExampleSvg2() {
           
           
           #left-border {
-            animation: drawLeftBorder 3s ease-in-out forwards;
+            animation: drawLeftBorder 4s ease-in-out forwards;
           }
           
           #right-border {
-            animation: drawRightBorder 3s ease-in-out forwards;
+            animation: drawRightBorder 4s ease-in-out forwards;
           }
 
           @keyframes drawBezierCurve {
@@ -51,11 +51,11 @@ export default function ExampleSvg2() {
           }
           
           #bezier-curve {
-            animation: drawBezierCurve 3s ease-in-out forwards;
+            animation: drawBezierCurve 4s ease-in-out forwards;
           }
           
           #bezier-curve-rotated {
-            animation: drawBezierCurveRotated 3s ease-in-out forwards;
+            animation: drawBezierCurveRotated 4s ease-in-out forwards;
           }
        `}</style>
         <rect x="0" y="0" width="648" height="365" fill="none" stroke="#e5e7eb" stroke-width="2" rx="8"/>

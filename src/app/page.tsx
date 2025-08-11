@@ -1,6 +1,5 @@
 'use client';
 import { useState } from 'react';
-import Image from 'next/image';
 import ExampleSvg from '@/components/ExampleSvg';
 import ExampleSvg2 from '@/components/ExampleSvg2';
 
