@@ -1,0 +1,254 @@
+<svg width="750" height="478" viewBox="0 0 750 478" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    
+    @keyframes drawLine1 {
+      0% {
+        stroke-dasharray: 0, 80, 0, 300;
+      }
+      12.5% {
+        stroke-dasharray: 0, 80, 0, 300;
+      }
+      100% {
+        stroke-dasharray: 0, 80, 320, 0;
+      }
+    }
+
+    .line-1-animation {
+      animation: drawLine1 3s linear forwards;
+    }
+    
+    
+    @keyframes drawLine3_2 {
+      0% {
+        stroke-dasharray: 0, 61, 0, 1000;
+      }
+      12.5% {
+        stroke-dasharray: 0, 26.5, 34.5, 1000;
+      }
+      100% {
+        stroke-dasharray: 0, 26.5, 34.5, 1000;
+      }
+    }
+    
+
+    .line-3-animation-2 {
+      animation: drawLine3_2 3s linear forwards;
+    }
+
+    @keyframes drawLine3_1 {
+      0% {
+        stroke-dasharray: 0, 61, 0, 150;
+      }
+      35% {
+        stroke-dasharray: 0, 61, 85, 70;
+      }
+      100% {
+        stroke-dasharray: 0, 61, 85, 70;
+      }
+    }
+
+    .line-3-animation-1 {
+      animation: drawLine3_1 3s linear forwards;
+    }
+
+    @keyframes drawLine4 {
+      0% {
+        stroke-dasharray: 0, 60, 0, 100;
+      }
+      32% {
+        stroke-dasharray: 0, 60, 0, 100;
+      }
+      70% {
+        stroke-dasharray: 0, 60, 93, 7;
+      }
+      100% {
+        stroke-dasharray: 0, 60, 93, 7;
+      }
+    }
+    
+    .line-4-animation {
+      animation: drawLine4 3s linear forwards;
+    }
+
+    @keyframes drawLine2 {
+      0% {
+        stroke-dasharray: 0, 200, 0, 120;
+      }
+      54% {
+        stroke-dasharray: 0, 200, 0, 120;
+      }
+      84% {
+        stroke-dasharray: 0, 200, 120, 0;
+      }
+      100% {
+        stroke-dasharray: 0, 200, 120, 0;
+      }
+    }
+    
+    .line-2-animation {
+      animation: drawLine2 3s linear forwards;
+    }
+
+    @keyframes drawLine5 {
+      0% {
+        stroke-dasharray: 0, 0, 0, 250;
+      }
+      100% {
+        stroke-dasharray: 0, 0, 160, 90;
+      }
+    }
+    
+    .line-5-animation {
+      animation: drawLine5 3s linear forwards;
+    }
+
+    @keyframes textSwitch {
+      0% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      48% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      52% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+    }
+
+    @keyframes textSwitchIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      48% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      52% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .text-init-animation {
+      animation: textSwitch 6s linear forwards;
+    }
+    
+    .text-dev-animation {
+      animation: textSwitchIn 6s linear forwards;
+    }
+  </style>
+  <mask id="mask0_731_12514" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="750" height="478">
+    <rect opacity="0.8" width="750" height="478" fill="white"/>
+  </mask>
+  <g mask="url(#mask0_731_12514)">
+    <path d="M731.391 636.63C766.093 576.524 776.108 505.447 759.231 439.034C742.354 372.622 699.969 316.315 641.399 282.5C582.83 248.685 512.874 240.132 446.921 258.722C380.968 277.313 324.42 321.524 289.718 381.63C255.016 441.736 245.002 512.813 261.879 579.225C278.755 645.637 321.141 701.944 379.71 735.759C438.28 769.574 508.236 778.127 574.189 759.537C640.142 740.947 696.689 696.736 731.391 636.63Z" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M630.998 278.217C630.998 278.217 553.17 268.237 435.904 468.372C318.64 668.506 376.487 733.91 376.487 733.91" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M630.998 278.217C630.998 278.217 809.28 415.486 692.017 615.616C574.753 815.749 376.49 733.904 376.49 733.904" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M630.998 278.217C630.998 278.217 684.486 345.18 567.221 545.313C449.957 745.447 376.49 733.904 376.49 733.904" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M630.998 278.217C630.998 278.217 442.078 200.074 324.814 400.205C207.55 600.339 376.49 733.904 376.49 733.904" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M630.998 278.217C630.998 278.217 746.381 375.738 629.116 575.871C511.852 776.005 376.49 733.904 376.49 733.904" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M630.998 278.217C630.998 278.217 487.251 227.335 369.984 427.47C252.72 627.603 376.486 733.91 376.486 733.91" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M630.998 278.217C630.998 278.217 623.709 299.762 506.447 499.893C389.183 700.027 376.491 733.905 376.491 733.905" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M542.043 250.89C542.043 250.89 530.243 283.567 607.089 327.934C683.931 372.298 722.065 358.261 722.065 358.261" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M439.091 261.843C439.091 261.843 416.74 309.03 564.234 394.185C711.727 479.34 764.106 452.924 760.785 452.724" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M371.557 293.244C371.557 293.244 355.14 361.022 527.469 460.516C699.799 560.011 765.339 527.458 765.339 527.458" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M310.206 352.253C310.206 352.253 310.892 416.174 495.641 522.839C680.39 629.503 745.106 606.777 745.106 606.777" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M279.727 405.048C279.727 405.048 275.37 474.642 459.569 580.989C643.768 687.336 713.333 658.824 713.333 658.824" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M259.762 469.067C259.762 469.067 256.854 534.347 429.718 634.15C602.581 733.953 666.592 707.385 666.592 707.385" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M253 334H750V478H253V334Z" fill="url(#paint0_linear_731_12514)"/>
+  </g>
+  <g filter="url(#filter0_d_731_12514)">
+    <rect x="492" y="144" width="154" height="40" rx="20" fill="white" fill-opacity="0.4" shape-rendering="crispEdges"/>
+  </g>
+  <text x="508" y="168" font-family="Oxygen, sans-serif" font-size="12" font-weight="600" fill="#000000">$</text>
+  <text x="520" y="168" font-family="Oxygen, sans-serif" font-size="12" font-weight="600" fill="#0055FF" class="text-dev-animation"> edgeone pages dev</text>
+  <text x="520" y="168" font-family="Oxygen, sans-serif" font-size="12" font-weight="600" fill="#0055FF" class="text-init-animation"> edgeone pages init</text>
+  <path d="M574.002 303.018C574.002 300.799 572.21 299 570.001 299C567.791 299 566 300.799 566 303.018C566 305.237 567.791 307.036 570.001 307.036C572.21 307.036 574.002 305.237 574.002 303.018Z" fill="#76A4FF"/>
+  <path id="line-5" d="M570 303C542.161 323.062 490.867 379.516 465 422" stroke="url(#paint1_linear_731_12514)" stroke-width="2" class="line-5-animation"/>
+  <path d="M570 184L570.314 302.774" stroke="url(#paint2_linear_731_12514)" stroke-width="2"/>
+  <path d="M469.002 421.018C469.002 418.799 467.21 417 465.001 417C462.791 417 461 418.799 461 421.018C461 423.237 462.791 425.036 465.001 425.036C467.21 425.036 469.002 423.237 469.002 421.018Z" fill="#76A4FF"/>
+  <path d="M682.002 447.018C682.002 444.799 680.21 443 678.001 443C675.791 443 674 444.799 674 447.018C674 449.237 675.791 451.036 678.001 451.036C680.21 451.036 682.002 449.237 682.002 447.018Z" fill="#76A4FF"/>
+  <mask id="mask1_731_12514" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="339" y="263" width="209" height="215">
+    <rect opacity="0.8" x="339" y="263" width="209" height="215" fill="white"/>
+  </mask>
+  <g mask="url(#mask1_731_12514)">
+    <path id="line-1" d="M631.089 278.714C631.089 278.714 487.342 227.832 370.076 427.967C252.812 628.101 376.578 734.407 376.578 734.407" stroke="url(#paint3_linear_731_12514)" stroke-width="2" class="line-1-animation"/>
+  </g>
+  <g mask="url(#mask2_731_12514)">
+    <path id="line-2" d="M438.02 262C438.02 262 415.669 309.186 563.162 394.342C710.656 479.497 763.034 453.08 759.713 452.88" stroke="url(#paint4_linear_731_12514)" stroke-width="2" class="line-2-animation"/>
+  </g>
+  <g mask="url(#mask3_731_12514)">
+    <use href="#line-3-def" stroke="url(#paint5_linear_731_12514)" stroke-width="2" class="line-3-animation-1"/>
+    <use href="#line-3-def" stroke="url(#paint6_linear_731_12514)" stroke-width="2" class="line-3-animation-2"/>
+  </g>
+  <g mask="url(#mask4_731_12514)">
+    <path id="line-4" d="M630.945 278C630.945 278 684.434 344.963 567.169 545.096C449.905 745.23 376.437 733.687 376.437 733.687" stroke="url(#paint6_linear_731_12514)" stroke-width="2" class="line-4-animation"/>
+  </g>
+  <mask id="mask2_731_12514" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="624" y="399" width="54" height="58">
+    <rect opacity="0.8" x="624" y="399" width="54" height="58" fill="white"/>
+  </mask>
+  <mask id="mask3_731_12514" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="543" y="277" width="100" height="79">
+    <rect opacity="0.8" x="543" y="277" width="100" height="79" fill="white"/>
+  </mask>
+  <mask id="mask4_731_12514" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="600" y="345" width="49" height="81">
+    <rect opacity="0.8" x="600" y="345" width="49" height="81" fill="white"/>
+  </mask>
+  <defs>
+    <path id="line-3-def" d="M542.099 251C542.099 251 530.3 283.676 607.145 328.043C683.987 372.408 722.122 358.37 722.122 358.37"/>
+    <filter id="filter0_d_731_12514" x="472" y="124" width="194" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset/>
+      <feGaussianBlur stdDeviation="10"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.105882 0 0 0 0 0.407843 0 0 0 0 1 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_731_12514"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_731_12514" result="shape"/>
+    </filter>
+    <linearGradient id="paint0_linear_731_12514" x1="502.173" y1="473.253" x2="501.941" y2="333.999" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white"/>
+      <stop offset="0.5" stop-color="white" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_731_12514" x1="582.351" y1="297.342" x2="423.566" y2="367.576" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0055FF"/>
+      <stop offset="1" stop-color="#ECF2FF"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear_731_12514" x1="570.157" y1="243.387" x2="571.157" y2="243.384" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0055FF"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="paint3_linear_731_12514" x1="568.738" y1="242.715" x2="307.789" y2="694.692" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0055FF"/>
+      <stop offset="0.6" stop-color="#ECF2FF"/>
+      <stop offset="1" stop-color="#ECF2FF"/>
+    </linearGradient>
+    <linearGradient id="paint4_linear_731_12514" x1="425.01" y1="284.534" x2="749.091" y2="471.642" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0055FF"/>
+      <stop offset="0.5" stop-color="#0055FF"/>
+      <stop offset="0.9" stop-color="#ECF2FF"/>
+      <stop offset="1" stop-color="#ECF2FF"/>
+    </linearGradient>
+    <linearGradient id="paint5_linear_731_12514" x1="533.55" y1="265.808" x2="715.059" y2="370.603" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0055FF"/>
+    </linearGradient>
+    <linearGradient id="paint6_linear_731_12514" x1="533.55" y1="265.808" x2="715.059" y2="370.603" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0055FF"/>
+    </linearGradient>
+    <linearGradient id="paint6_linear_731_12514" x1="664.866" y1="297.584" x2="403.921" y2="749.555" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0055FF"/>
+      <stop offset="1" stop-color="#ECF2FF"/>
+    </linearGradient>
+  </defs>
+</svg>

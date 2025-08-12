@@ -2,9 +2,10 @@
 import { useState } from 'react';
 import ExampleSvg from '@/components/ExampleSvg';
 import ExampleSvg2 from '@/components/ExampleSvg2';
+import ExampleSvg3 from '@/components/ExampleSvg3';
 
 export default function Home() {
-  const [svgIndex, setSvgIndex] = useState(2);
+  const [svgIndex, setSvgIndex] = useState(3);
 
   return (
     <div className="font-sans min-h-screen p-8 flex flex-col items-center justify-center relative bg-white">
@@ -19,7 +20,7 @@ export default function Home() {
             <ExampleSvg2 />
           )}
           {svgIndex === 3 && (
-            <div className="w-full h-full flex items-center justify-center text-2xl text-gray-400 bg-gray-100 rounded">SVG 3 占位</div>
+            <ExampleSvg3 />
           )}
         </div>
       </div>
