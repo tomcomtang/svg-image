@@ -110,11 +110,11 @@ const ExampleSvg3: React.FC = () => {
                 opacity: 1;
                 transform: translateY(0);
               }
-              48% {
+              30% {
                 opacity: 1;
                 transform: translateY(0);
               }
-              52% {
+              33.33% {
                 opacity: 0;
                 transform: translateY(20px);
               }
@@ -124,16 +124,43 @@ const ExampleSvg3: React.FC = () => {
               }
             }
 
-            @keyframes textSwitchIn {
+            @keyframes textSwitchLink {
               0% {
                 opacity: 0;
                 transform: translateY(-20px);
               }
-              48% {
+              30% {
                 opacity: 0;
                 transform: translateY(-20px);
               }
-              52% {
+              33.33% {
+                opacity: 1;
+                transform: translateY(0);
+              }
+              63.33% {
+                opacity: 1;
+                transform: translateY(0);
+              }
+              66.66% {
+                opacity: 0;
+                transform: translateY(20px);
+              }
+              100% {
+                opacity: 0;
+                transform: translateY(20px);
+              }
+            }
+
+            @keyframes textSwitchDev {
+              0% {
+                opacity: 0;
+                transform: translateY(-20px);
+              }
+              63.33% {
+                opacity: 0;
+                transform: translateY(-20px);
+              }
+              66.66% {
                 opacity: 1;
                 transform: translateY(0);
               }
@@ -147,8 +174,12 @@ const ExampleSvg3: React.FC = () => {
               animation: textSwitch 6s linear forwards;
             }
             
+            .text-link-animation {
+              animation: textSwitchLink 6s linear forwards;
+            }
+            
             .text-dev-animation {
-              animation: textSwitchIn 6s linear forwards;
+              animation: textSwitchDev 6s linear forwards;
             }
           `}
         </style>
@@ -180,8 +211,9 @@ const ExampleSvg3: React.FC = () => {
         </g>
         
         <text x="508" y="168" fontFamily="Oxygen, sans-serif" fontSize="12" fontWeight="600" fill="#000000">$</text>
-        <text x="520" y="168" fontFamily="Oxygen, sans-serif" fontSize="12" fontWeight="600" fill="#0055FF" className="text-dev-animation"> edgeone pages dev</text>
         <text x="520" y="168" fontFamily="Oxygen, sans-serif" fontSize="12" fontWeight="600" fill="#0055FF" className="text-init-animation"> edgeone pages init</text>
+        <text x="520" y="168" fontFamily="Oxygen, sans-serif" fontSize="12" fontWeight="600" fill="#0055FF" className="text-link-animation"> edgeone pages link</text>
+        <text x="520" y="168" fontFamily="Oxygen, sans-serif" fontSize="12" fontWeight="600" fill="#0055FF" className="text-dev-animation"> edgeone pages dev</text>
         
         <path d="M574.002 303.018C574.002 300.799 572.21 299 570.001 299C567.791 299 566 300.799 566 303.018C566 305.237 567.791 307.036 570.001 307.036C572.21 307.036 574.002 305.237 574.002 303.018Z" fill="#76A4FF"/>
         <path id="line-5" d="M570 303C542.161 323.062 490.867 379.516 465 422" stroke="url(#paint1_linear_731_12514)" strokeWidth="2" className="line-5-animation"/>
