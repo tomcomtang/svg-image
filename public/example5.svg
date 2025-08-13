@@ -1,0 +1,200 @@
+<svg width="750" height="478" viewBox="0 0 750 478" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 所有的defs定义都放在这里 -->
+  <defs>
+    <mask id="mask0_731_12514" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="750" height="478">
+      <rect opacity="0.8" width="750" height="478" fill="white"/>
+    </mask>
+    <path id="line-1-def" d="M630.998 278.217C630.998 278.217 553.17 268.237 435.904 468.372C318.64 668.506 376.487 733.91 376.487 733.91"/>
+    <path id="line-2-def" d="M542.043 250.89C542.043 250.89 530.243 283.567 607.089 327.934C683.931 372.298 722.065 358.261 722.065 358.261"/>
+    <path id="line-3-def" d="M630.998 278.217C630.998 278.217 684.486 345.18 567.221 545.313C449.957 745.447 376.49 733.904 376.49 733.904"/>
+            <path id="line-4-def" d="M439.091 261.843C439.091 261.843 416.74 309.03 564.234 394.185C711.727 479.34 764.106 452.924 760.785 452.724"/>
+        <path id="line-5-def" d="M630.998 278.217C630.998 278.217 487.251 227.335 369.984 427.47C252.72 627.603 376.486 733.91 376.486 733.91"/>
+  </defs>
+  
+  <g mask="url(#mask0_731_12514)">
+    <path d="M731.391 636.63C766.093 576.524 776.108 505.447 759.231 439.034C742.354 372.622 699.969 316.315 641.399 282.5C582.83 248.685 512.874 240.132 446.921 258.722C380.968 277.313 324.42 321.524 289.718 381.63C255.016 441.736 245.002 512.813 261.879 579.225C278.755 645.637 321.141 701.944 379.71 735.759C438.28 769.574 508.236 778.127 574.189 759.537C640.142 740.947 696.689 696.736 731.391 636.63Z" stroke="#CDC7C7" stroke-width="2"/>
+    <!-- 第一条曲线，引用line-1 -->
+    <use href="#line-1-def" stroke="#CDC7C7" stroke-width="2" id="common-line"/>
+    <!-- 第二条曲线，引用line-1，完全重合 -->
+    <!-- <use href="#line-1-def" stroke="red" stroke-width="2" id="red-line"/> -->
+    
+    <!-- 直接控制red-line的显示，隐藏开头部分，只显示从中点到4/5位置 -->
+    <use href="#line-1-def" stroke="red" stroke-width="2" stroke-dasharray="0,67,160,100" class="drawing-animation"/>
+    
+    <!-- 添加CSS keyframe动画样式 -->
+    <style>
+      .drawing-animation {
+        animation: drawLine 3s linear forwards;
+      }
+      
+      @keyframes drawLine {
+        0% {
+          stroke-dasharray: 0, 67, 0, 258;
+        }
+        100% {
+          stroke-dasharray: 0, 67, 158, 100;
+        }
+      }
+      
+      .line-2-animation {
+        animation: drawLine2 3s linear forwards;
+      }
+      
+      @keyframes drawLine2 {
+        0% {
+          stroke-dasharray: 0, 61, 0, 239;
+        }
+        38% {
+          stroke-dasharray: 0, 61, 86, 153;
+        }
+        100% {
+          stroke-dasharray: 0, 61, 86, 153;
+        }
+      }
+      
+      .line-3-animation {
+        animation: drawLine3 3s linear forwards;
+      }
+      
+      @keyframes drawLine3 {
+        0% {
+          stroke-dasharray: 0, 70, 0, 183;
+        }
+        38% {
+          stroke-dasharray: 0, 70, 0, 183;
+        }
+        74% {
+          stroke-dasharray: 0, 70, 83, 100;
+        }
+        100% {
+          stroke-dasharray: 0, 70, 83, 100;
+        }
+      }
+      
+      .line-4-animation {
+        animation: drawLine4 3s linear forwards;
+      }
+      
+      
+      @keyframes drawLine4 {
+          0% {
+            stroke-dasharray: 0, 258, 0, 150;
+          }
+          74% {
+            stroke-dasharray: 0, 258, 0, 150;
+          }
+          100% {
+            stroke-dasharray: 0, 258, 60, 150;
+          }
+        }
+        
+
+        .line-2-animation-1 {
+          animation: drawLine2_1 3s linear forwards;
+        }
+        
+        .line-5-animation {
+          animation: drawLine5 3s linear forwards;
+        }
+
+        @keyframes drawLine5 {
+          0% {
+            stroke-dasharray: 0, 83, 0, 320;
+          }
+          20% {
+            stroke-dasharray: 0, 83, 0, 320;
+          }
+          100% {
+            stroke-dasharray: 0, 83, 320, 0;
+          }
+        }
+        
+        @keyframes drawLine2_1 {
+        0% {
+          stroke-dasharray: 0, 61, 0, 1000;
+        }
+        20% {
+          stroke-dasharray: 0, 26.5, 34.5, 1000;
+        }
+        100% {
+          stroke-dasharray: 0, 26.5, 34.5, 1000;
+        }
+      }
+    </style>
+    <path d="M630.998 278.217C630.998 278.217 809.28 415.486 692.017 615.616C574.753 815.749 376.49 733.904 376.49 733.904" stroke="#CDC7C7" stroke-width="2"/>
+
+    
+    <!-- 第一条line-3，引用定义 -->
+    <use href="#line-3-def" stroke="#CDC7C7" stroke-width="2" id="line-3-common"/>
+    <!-- 第二条line-3，红色，用于动画 -->
+    <use href="#line-3-def" stroke="red" stroke-width="2" class="line-3-animation"/>
+    <path d="M630.998 278.217C630.998 278.217 442.078 200.074 324.814 400.205C207.55 600.339 376.49 733.904 376.49 733.904" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M630.998 278.217C630.998 278.217 746.381 375.738 629.116 575.871C511.852 776.005 376.49 733.904 376.49 733.904" stroke="#CDC7C7" stroke-width="2"/>
+          <use href="#line-5-def" stroke="#CDC7C7" stroke-width="2" id="line-5-common"/>
+      <use href="#line-5-def" stroke="red" stroke-width="2" class="line-5-animation"/>
+    <path d="M630.998 278.217C630.998 278.217 623.709 299.762 506.447 499.893C389.183 700.027 376.491 733.905 376.491 733.905" stroke="#CDC7C7" stroke-width="2"/>
+
+    
+    <!-- 第一条line-2，引用定义 -->
+    <use href="#line-2-def" stroke="#CDC7C7" stroke-width="2" id="line-2-common"/>
+    <!-- 第二条line-2，红色，用于动画 -->
+    <use href="#line-2-def" stroke="red" stroke-width="2" class="line-2-animation"/>
+    <use href="#line-2-def" stroke="red" stroke-width="2" class="line-2-animation-1"/>
+    <!-- 第一条line-4，引用定义 -->
+    <use href="#line-4-def" stroke="#CDC7C7" stroke-width="2" id="line-4-common"/>
+    <!-- 第二条line-4，红色，用于动画 -->
+    <use href="#line-4-def" stroke="red" stroke-width="2" class="line-4-animation"/>
+    <path d="M371.557 293.244C371.557 293.244 355.14 361.022 527.469 460.516C699.799 560.011 765.339 527.458 765.339 527.458" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M310.206 352.253C310.206 352.253 310.892 416.174 495.641 522.839C680.39 629.503 745.106 606.777 745.106 606.777" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M279.727 405.048C279.727 405.048 275.37 474.642 459.569 580.989C643.768 687.336 713.333 658.824 713.333 658.824" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M259.762 469.067C259.762 469.067 256.854 534.347 429.718 634.15C602.581 733.953 666.592 707.385 666.592 707.385" stroke="#CDC7C7" stroke-width="2"/>
+    <path d="M253 334H750V478H253V334Z" fill="url(#paint0_linear_731_12514)"/>
+  </g>
+  
+  <!-- SVG 边框 -->
+  <rect x="0" y="0" width="750" height="478" fill="none" stroke="#333333" stroke-width="3" rx="8"/>
+  
+  <defs>
+    <filter id="filter0_d_731_12514" x="472" y="124" width="194" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset/>
+      <feGaussianBlur stdDeviation="10"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.105882 0 0 0 0 0.407843 0 0 0 0 1 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_731_12514"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_731_12514" result="shape"/>
+    </filter>
+    <linearGradient id="paint0_linear_731_12514" x1="502.173" y1="473.253" x2="501.941" y2="333.999" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white"/>
+      <stop offset="0.5" stop-color="white" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_731_12514" x1="582.351" y1="297.342" x2="423.566" y2="367.576" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0055FF"/>
+      <stop offset="1" stop-color="#ECF2FF"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear_731_12514" x1="570.157" y1="243.387" x2="571.157" y2="243.384" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0055FF"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="paint3_linear_731_12514" x1="568.738" y1="242.715" x2="307.789" y2="694.692" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0055FF"/>
+      <stop offset="0.6" stop-color="#ECF2FF"/>
+      <stop offset="1" stop-color="#ECF2FF"/>
+    </linearGradient>
+    <linearGradient id="paint4_linear_731_12514" x1="425.01" y1="284.534" x2="749.091" y2="471.642" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0055FF"/>
+      <stop offset="0.5" stop-color="#0055FF"/>
+      <stop offset="0.9" stop-color="#ECF2FF"/>
+      <stop offset="1" stop-color="#ECF2FF"/>
+    </linearGradient>
+    <linearGradient id="paint5_linear_731_12514" x1="533.55" y1="265.808" x2="715.059" y2="370.603" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0055FF"/>
+    </linearGradient>
+    <linearGradient id="paint6_linear_731_12514" x1="664.866" y1="297.584" x2="403.921" y2="749.555" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0055FF"/>
+      <stop offset="1" stop-color="#ECF2FF"/>
+    </linearGradient>
+  </defs>
+</svg>
