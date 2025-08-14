@@ -3,6 +3,7 @@ import { useState } from 'react';
 import ExampleSvg from '@/components/ExampleSvg';
 import ExampleSvg2 from '@/components/ExampleSvg2';
 import ExampleSvg3 from '@/components/ExampleSvg3';
+import ExampleSvg4 from '@/components/ExampleSvg4';
 
 export default function Home() {
   const [svgIndex, setSvgIndex] = useState(3);
@@ -21,6 +22,9 @@ export default function Home() {
           )}
           {svgIndex === 3 && (
             <ExampleSvg3 />
+          )}
+          {svgIndex === 4 && (
+            <ExampleSvg4 />
           )}
         </div>
       </div>

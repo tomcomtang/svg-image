@@ -171,15 +171,15 @@ const ExampleSvg3: React.FC = () => {
             }
             
             .text-init-animation {
-              animation: textSwitch 6s linear forwards;
+              animation: textSwitch 6s linear infinite;
             }
             
             .text-link-animation {
-              animation: textSwitchLink 6s linear forwards;
+              animation: textSwitchLink 6s linear infinite;
             }
             
             .text-dev-animation {
-              animation: textSwitchDev 6s linear forwards;
+              animation: textSwitchDev 6s linear infinite;
             }
           `}
         </style>

@@ -1,0 +1,29 @@
+<svg width="802" height="402" viewBox="0 0 802 402" fill="none" xmlns="http://www.w3.org/2000/svg"  style="background-color: transparent">
+  <g data-testid="globe-nodes">
+    <g data-testid="deploy-node-0-5-dddl">
+      <g opacity="1">
+        <g id="dddl05" opacity="1">
+          <path d="M 400 80 A 0 400 0 0 0 400 0M 400 160 A 0 400 0 0 0 400 80M 400 240 A 0 400 0 0 0 400 160M400,240 h-112.82" fill="none" stroke="url(#dddl05-gradient)" stroke-linecap="round" stroke-width="2" vector-effect="non-scaling-stroke">
+            <animate attributeName="opacity" dur="4.5s" id="opacity-dddl05" keyTimes="0;0.111;0.222;0.333;0.444;0.556;0.667;1" repeatCount="indefinite" values="0;1;1;1;1;1;0;0"></animate>
+          </path>
+          <defs>
+            <radialGradient class="path-module__fNfkpG__gradient" cx="100" cy="100" gradientUnits="userSpaceOnUse" id="dddl05-gradient" r="0" style="--normal-color: #45DEC4; --p3-color: oklch(81.5% 0.2018 178.96);">
+              <stop offset="0" stop-color="var(--color)"></stop>
+              <stop offset="0.4" stop-color="var(--color)"></stop>
+              <stop offset="1" stop-color="var(--color)" stop-opacity="0"></stop>
+              <animate attributeName="cx" dur="4.5s" id="cx-dddl05" keyTimes="0;0.111;0.222;0.333;0.444;0.556;0.667;1" repeatCount="indefinite" values="400;400;400;400;400;287.18;287.18;0"></animate>
+              <animate attributeName="cy" dur="4.5s" id="cy-dddl05" keyTimes="0;0.111;0.222;0.333;0.444;0.556;0.667;1" repeatCount="indefinite" values="0;0;80;160;240;240;240;0"></animate>
+              <animate attributeName="r" dur="4.5s" id="r-dddl05" keyTimes="0;0.111;0.222;0.333;0.444;0.556;0.667;1" repeatCount="indefinite" values="0;120;120;120;120;120;0;0"></animate>
+            </radialGradient>
+          </defs>
+        </g>
+      </g>
+    </g>
+  </g>
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" id="globe-gradient" x1="0" x2="0" y1="0" y2="400">
+      <stop offset="0%" stop-color="var(--guide-color)"></stop>
+      <stop offset="100%" stop-color="var(--guide-color)"></stop>
+    </linearGradient>
+  </defs>
+ </svg>
