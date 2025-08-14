@@ -3,7 +3,7 @@
 export default function ExampleSvg2() {
   return (
     <div className="flex items-center justify-center">
-      <svg width="648" height="365" viewBox="0 0 648 365" fill="none" xmlns="http://www.w3.org/2000/svg" style={{backgroundColor: 'transparent'}}>
+      <svg width="688" height="365" viewBox="-20 0 688 365" fill="none" xmlns="http://www.w3.org/2000/svg" style={{backgroundColor: 'transparent'}}>
         <style>{`
           @keyframes drawLeftBorder {
             0% {
@@ -58,7 +58,7 @@ export default function ExampleSvg2() {
             animation: drawBezierCurveRotated 4s ease-in-out forwards;
           }
        `}</style>
-        <rect x="0" y="0" width="648" height="365" fill="none" stroke="#e5e7eb" stroke-width="2" rx="8"/>
+
         <g transform="translate(500.5, 8)" id="logo-api">
           <g filter="url(#filter0_d_982_3600)">
             <path d="M78.1041 21.5356L21.5355 78.1041C19.5829 80.0567 19.5829 83.2226 21.5355 85.1752L78.1041 141.744C80.0567 143.696 83.2225 143.696 85.1751 141.744L141.744 85.1752C143.696 83.2226 143.696 80.0567 141.744 78.1041L85.1751 21.5356C83.2225 19.583 80.0567 19.583 78.1041 21.5356Z" fill="#F7F8FC"/>
