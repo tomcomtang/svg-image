@@ -9,7 +9,7 @@ export default function ExampleSvg2() {
             0% {
               stroke-dashoffset: 800;
             }
-            50% {
+            30% {
               stroke-dashoffset: 800;
             }
             100% {
@@ -21,7 +21,7 @@ export default function ExampleSvg2() {
             0% {
               stroke-dashoffset: 800;
             }
-            50% {
+            30% {
               stroke-dashoffset: 800;
             }
             100% {
@@ -31,31 +31,31 @@ export default function ExampleSvg2() {
           
           
           #left-border {
-            animation: drawLeftBorder 4s ease-in-out forwards;
+            animation: drawLeftBorder 2s linear forwards;
           }
           
           #right-border {
-            animation: drawRightBorder 4s ease-in-out forwards;
+            animation: drawRightBorder 2s linear forwards;
           }
 
           @keyframes drawBezierCurve {
             0% { stroke-dashoffset: -200;}
-            50% {        stroke-dashoffset: 0;}
+            30% {        stroke-dashoffset: 0;}
             100% {        stroke-dashoffset: 0;      }
           }
           
           @keyframes drawBezierCurveRotated {
             0% { stroke-dashoffset: -200;}
-            50% {        stroke-dashoffset: 0;}
+            30% {        stroke-dashoffset: 0;}
             100% {        stroke-dashoffset: 0;      }
           }
           
           #bezier-curve {
-            animation: drawBezierCurve 4s ease-in-out forwards;
+            animation: drawBezierCurve 2s linear forwards;
           }
           
           #bezier-curve-rotated {
-            animation: drawBezierCurveRotated 4s ease-in-out forwards;
+            animation: drawBezierCurveRotated 2s linear forwards;
           }
        `}</style>
 
@@ -129,16 +129,20 @@ export default function ExampleSvg2() {
               <stop offset="1" stop-color="#8CC84B"/>
             </linearGradient>
             <linearGradient id="paint1_linear_1B68FF_8CC84B" x1="366" y1="52" x2="538" y2="66" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#8CC84B"/>
-              <stop offset="1" stop-color="#1B68FF"/>
+              <stop offset="0%" stop-color="#8CC84B" />
+              <stop offset="30%" stop-color="#8CC84B" />
+              <stop offset="64%" stop-color="#1B68FF"/>
+              <stop offset="100%" stop-color="#1B68FF"/>
             </linearGradient>
             <linearGradient id="paint2_linear_bezier_curve" x1="284" y1="124" x2="112" y2="110" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#8CC84B"/>
-              <stop offset="1" stop-color="#1B68FF"/>
+              <stop offset="0%" stop-color="#8CC84B" />
+              <stop offset="30%" stop-color="#8CC84B" />
+              <stop offset="64%" stop-color="#1B68FF"/>
+              <stop offset="100%" stop-color="#1B68FF"/>
             </linearGradient>
           </defs>
-          <path id="right-border" d="M541.12 68L579.4576 29.8891C581.215 28.1318 584.0642 28.1318 585.8216 29.8891L642.39 86.4577C644.147 88.215 644.147 91.0643 642.39 92.8216L585.8216 149.39C584.0642 151.148 581.215 151.148 579.4576 149.39L522.3891 92.8216C520.6317 91.0643 520.6317 88.215 522.3891 86.4577L541.12 68Z" stroke="#2414FF" stroke-dasharray="800" stroke-dashoffset="800"/>
-          <path id="left-border" d="M109.6 108.6L68.83 149.382C67.0726 151.139 64.2234 151.139 62.466 149.382L5.8975 92.8133C4.1401 90.056 4.1401 87.2067 5.8975 85.4494L62.466 28.8808C64.2234 26.1235 67.0726 26.1235 68.83 28.8808L125.399 85.4494C127.156 87.2067 127.156 90.056 125.399 92.8133L109.6 108.6Z" stroke="#1B68FF"  stroke-dasharray="800" stroke-dashoffset="800"/>
+          <path id="right-border" d="M541.12 67.5L579.4576 28.3891C581.215 26.6318 584.0642 26.6318 585.8216 28.3891L642.39 85.9577C644.147 87.715 644.147 90.5643 642.39 92.3216L585.8216 148.89C584.0642 150.648 581.215 150.648 579.4576 148.89L522.3891 92.3216C520.6317 90.5643 520.6317 87.715 522.3891 85.9577L541.12 67.5Z" stroke="#2182FF" stroke-dasharray="800" stroke-dashoffset="800"/>
+          <path id="left-border" d="M109.6 108.6L68.83 149.382C67.0726 151.139 64.2234 151.139 62.466 149.382L5.8975 92.8133C4.1401 90.056 4.1401 87.2067 5.8975 85.4494L62.466 28.8808C64.2234 26.1235 67.0726 26.1235 68.83 28.8808L125.399 85.4494C127.156 87.2067 127.156 90.056 125.399 92.8133L109.6 108.6Z" stroke="#2182FF"  stroke-dasharray="800" stroke-dashoffset="800"/>
           <path id="bezier-curve" d="M112,110 L190,157.5 C205,165.5 215,165 230,157.5 L284,124" fill="none" stroke="url(#paint2_linear_bezier_curve)" stroke-width="3" stroke-linecap="round" stroke-dasharray="200" stroke-dashoffset="200"/>
           <path id="bezier-curve-rotated" d="M538,66 L460,18.5 C445,10.5 435,11 420,18.5 L366,52" fill="none" stroke="url(#paint1_linear_1B68FF_8CC84B)" stroke-width="3" stroke-linecap="round" stroke-dasharray="200" stroke-dashoffset="200"/>
         </g>

@@ -6,7 +6,7 @@ import ExampleSvg3 from '@/components/ExampleSvg3';
 import ExampleSvg4 from '@/components/ExampleSvg4';
 
 export default function Home() {
-  const [svgIndex, setSvgIndex] = useState(2);
+  const [svgIndex, setSvgIndex] = useState(1);
 
   return (
     <div className="font-sans min-h-screen p-8 flex flex-col items-center justify-center relative bg-white">
