@@ -4,15 +4,16 @@ import ExampleSvg from '@/components/ExampleSvg';
 import ExampleSvg2 from '@/components/ExampleSvg2';
 import ExampleSvg3 from '@/components/ExampleSvg3';
 import ExampleSvg4 from '@/components/ExampleSvg4';
+import ExampleSvg5 from '@/components/ExampleSvg5';
 
 export default function Home() {
-  const [svgIndex, setSvgIndex] = useState(1);
+  const [svgIndex, setSvgIndex] = useState(3);
 
   return (
     <div className="font-sans min-h-screen p-8 flex flex-col items-center justify-center relative bg-white">
       {/* SVG内容区 */}
       <div className="flex-1 flex items-center justify-center w-full">
-        <div className="relative w-[800px] h-[600px] flex items-center justify-center">
+        <div className="relative w-[1200px] h-[600px] flex items-center justify-center">
           {svgIndex === 1 && (
             // SVG1内容（原有内联SVG）- 居中显示
             <ExampleSvg />
@@ -25,6 +26,9 @@ export default function Home() {
           )}
           {svgIndex === 4 && (
             <ExampleSvg4 />
+          )}
+          {svgIndex === 5 && (
+            <ExampleSvg5 />
           )}
         </div>
       </div>

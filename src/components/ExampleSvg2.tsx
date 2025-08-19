@@ -143,8 +143,8 @@ export default function ExampleSvg2() {
           </defs>
           <path id="right-border" d="M541.12 67.5L579.4576 28.3891C581.215 26.6318 584.0642 26.6318 585.8216 28.3891L642.39 85.9577C644.147 87.715 644.147 90.5643 642.39 92.3216L585.8216 148.89C584.0642 150.648 581.215 150.648 579.4576 148.89L522.3891 92.3216C520.6317 90.5643 520.6317 87.715 522.3891 85.9577L541.12 67.5Z" stroke="#2182FF" stroke-dasharray="800" stroke-dashoffset="800"/>
           <path id="left-border" d="M109.6 108.6L68.83 149.382C67.0726 151.139 64.2234 151.139 62.466 149.382L5.8975 92.8133C4.1401 90.056 4.1401 87.2067 5.8975 85.4494L62.466 28.8808C64.2234 26.1235 67.0726 26.1235 68.83 28.8808L125.399 85.4494C127.156 87.2067 127.156 90.056 125.399 92.8133L109.6 108.6Z" stroke="#2182FF"  stroke-dasharray="800" stroke-dashoffset="800"/>
-          <path id="bezier-curve" d="M112,110 L190,157.5 C205,165.5 215,165 230,157.5 L284,124" fill="none" stroke="url(#paint2_linear_bezier_curve)" stroke-width="3" stroke-linecap="round" stroke-dasharray="200" stroke-dashoffset="200"/>
-          <path id="bezier-curve-rotated" d="M538,66 L460,18.5 C445,10.5 435,11 420,18.5 L366,52" fill="none" stroke="url(#paint1_linear_1B68FF_8CC84B)" stroke-width="3" stroke-linecap="round" stroke-dasharray="200" stroke-dashoffset="200"/>
+          <path id="bezier-curve" d="M112,110 L190,157.5 C205,165.5 215,165 230,157.5 L284,124" fill="none" stroke="url(#paint2_linear_bezier_curve)" stroke-width="1" stroke-linecap="round" stroke-dasharray="200" stroke-dashoffset="200"/>
+          <path id="bezier-curve-rotated" d="M538,66 L460,18.5 C445,10.5 435,11 420,18.5 L366,52" fill="none" stroke="url(#paint1_linear_1B68FF_8CC84B)" stroke-width="1" stroke-linecap="round" stroke-dasharray="200" stroke-dashoffset="200"/>
         </g>
       </svg>
 

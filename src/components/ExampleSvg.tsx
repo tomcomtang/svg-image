@@ -34,7 +34,7 @@ export default function ExampleSvg() {
           }
 
           .drawing-path {
-            animation: leftLine 5s ease-in-out forwards;
+            animation: leftLine 3s ease-in-out forwards;
           }
           
           @keyframes draw-right-line {
@@ -45,7 +45,7 @@ export default function ExampleSvg() {
           }
 
           .right-line {
-            animation: draw-right-line 5s linear forwards;
+            animation: draw-right-line 3s linear forwards;
           }
           
           @keyframes colorChange {
@@ -77,20 +77,20 @@ export default function ExampleSvg() {
           }
           
           .love-icon {
-            animation: colorChange 5s ease-in-out forwards;
+            animation: colorChange 3s ease-in-out forwards;
           }
           
           .love-text-89 {
-            animation: fadeOut 5s ease-in-out forwards;
+            animation: fadeOut 3s ease-in-out forwards;
           }
           
           .love-text-90 {
             opacity: 0;
-            animation: fadeIn 5s ease-in-out forwards, colorChange 5s ease-in-out forwards;
+            animation: fadeIn 3s ease-in-out forwards, colorChange 5s ease-in-out forwards;
           }
           
           .database-icon {
-            animation: databaseOpacity 5s ease-in-out forwards;
+            animation: databaseOpacity 3s ease-in-out forwards;
           }
         `}</style>
         <path className="drawing-path"

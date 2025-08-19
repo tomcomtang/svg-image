@@ -19,7 +19,7 @@ const ExampleSvg3: React.FC = () => {
             }
 
             .line-1-animation {
-              animation: drawLine1 3s linear forwards;
+              animation: drawLine1 2s linear forwards;
             }
             
             @keyframes drawLine3_2 {
@@ -35,7 +35,7 @@ const ExampleSvg3: React.FC = () => {
             }
 
             .line-3-animation-2 {
-              animation: drawLine3_2 3s linear forwards;
+              animation: drawLine3_2 2s linear forwards;
             }
 
             @keyframes drawLine3_1 {
@@ -51,7 +51,7 @@ const ExampleSvg3: React.FC = () => {
             }
 
             .line-3-animation-1 {
-              animation: drawLine3_1 3s linear forwards;
+              animation: drawLine3_1 2s linear forwards;
             }
 
             @keyframes drawLine4 {
@@ -70,7 +70,7 @@ const ExampleSvg3: React.FC = () => {
             }
             
             .line-4-animation {
-              animation: drawLine4 3s linear forwards;
+              animation: drawLine4 2s linear forwards;
             }
 
             @keyframes drawLine2 {
@@ -89,7 +89,7 @@ const ExampleSvg3: React.FC = () => {
             }
             
             .line-2-animation {
-              animation: drawLine2 3s linear forwards;
+              animation: drawLine2 2s linear forwards;
             }
 
             @keyframes drawLine5 {
@@ -102,7 +102,7 @@ const ExampleSvg3: React.FC = () => {
             }
             
             .line-5-animation {
-              animation: drawLine5 3s linear forwards;
+              animation: drawLine5 2s linear forwards;
             }
 
             @keyframes textSwitch {
@@ -171,15 +171,15 @@ const ExampleSvg3: React.FC = () => {
             }
             
             .text-init-animation {
-              animation: textSwitch 6s linear infinite;
+              animation: textSwitch 5s linear infinite;
             }
             
             .text-link-animation {
-              animation: textSwitchLink 6s linear infinite;
+              animation: textSwitchLink 5s linear infinite;
             }
             
             .text-dev-animation {
-              animation: textSwitchDev 6s linear infinite;
+              animation: textSwitchDev 5s linear infinite;
             }
           `}
         </style>
@@ -215,14 +215,22 @@ const ExampleSvg3: React.FC = () => {
         <text x="520" y="168" fontFamily="Oxygen, sans-serif" fontSize="12" fontWeight="600" fill="#0055FF" className="text-link-animation"> edgeone pages link</text>
         <text x="520" y="168" fontFamily="Oxygen, sans-serif" fontSize="12" fontWeight="600" fill="#0055FF" className="text-dev-animation"> edgeone pages dev</text>
         
-        <path d="M574.002 303.018C574.002 300.799 572.21 299 570.001 299C567.791 299 566 300.799 566 303.018C566 305.237 567.791 307.036 570.001 307.036C572.21 307.036 574.002 305.237 574.002 303.018Z" fill="#76A4FF"/>
         <path id="line-5" d="M570 303C542.161 323.062 490.867 379.516 465 422" stroke="url(#paint1_linear_731_12514)" strokeWidth="2" className="line-5-animation"/>
         <path d="M570 184L570.314 302.774" stroke="url(#paint2_linear_731_12514)" strokeWidth="2"/>
-        <path d="M469.002 421.018C469.002 418.799 467.21 417 465.001 417C462.791 417 461 418.799 461 421.018C461 423.237 462.791 425.036 465.001 425.036C467.21 425.036 469.002 423.237 469.002 421.018Z" fill="#76A4FF"/>
-        <path d="M682.002 447.018C682.002 444.799 680.21 443 678.001 443C675.791 443 674 444.799 674 447.018C674 449.237 675.791 451.036 678.001 451.036C680.21 451.036 682.002 449.237 682.002 447.018Z" fill="#76A4FF"/>
-        
         <mask id="mask1_731_12514" style={{maskType: 'alpha'}} maskUnits="userSpaceOnUse" x="339" y="263" width="209" height="215">
           <rect opacity="0.8" x="339" y="263" width="209" height="215" fill="white"/>
+        </mask>
+        
+        <mask id="mask2_731_12514" style={{maskType: 'alpha'}} maskUnits="userSpaceOnUse" x="624" y="399" width="54" height="58">
+          <rect opacity="0.8" x="624" y="399" width="54" height="58" fill="white"/>
+        </mask>
+        
+        <mask id="mask3_731_12514" style={{maskType: 'alpha'}} maskUnits="userSpaceOnUse" x="543" y="277" width="100" height="79">
+          <rect opacity="0.8" x="543" y="277" width="100" height="79" fill="white"/>
+        </mask>
+        
+        <mask id="mask4_731_12514" style={{maskType: 'alpha'}} maskUnits="userSpaceOnUse" x="600" y="345" width="49" height="81">
+          <rect opacity="0.8" x="600" y="345" width="49" height="81" fill="white"/>
         </mask>
         
         <g mask="url(#mask1_731_12514)">
@@ -242,17 +250,9 @@ const ExampleSvg3: React.FC = () => {
           <path id="line-4" d="M630.945 278C630.945 278 684.434 344.963 567.169 545.096C449.905 745.23 376.437 733.687 376.437 733.687" stroke="url(#paint6_linear_731_12514)" strokeWidth="2" className="line-4-animation"/>
         </g>
         
-        <mask id="mask2_731_12514" style={{maskType: 'alpha'}} maskUnits="userSpaceOnUse" x="624" y="399" width="54" height="58">
-          <rect opacity="0.8" x="624" y="399" width="54" height="58" fill="white"/>
-        </mask>
-        
-        <mask id="mask3_731_12514" style={{maskType: 'alpha'}} maskUnits="userSpaceOnUse" x="543" y="277" width="100" height="79">
-          <rect opacity="0.8" x="543" y="277" width="100" height="79" fill="white"/>
-        </mask>
-        
-        <mask id="mask4_731_12514" style={{maskType: 'alpha'}} maskUnits="userSpaceOnUse" x="600" y="345" width="49" height="81">
-          <rect opacity="0.8" x="600" y="345" width="49" height="81" fill="white"/>
-        </mask>
+        <path d="M574.002 303.018C574.002 300.799 572.21 299 570.001 299C567.791 299 566 300.799 566 303.018C566 305.237 567.791 307.036 570.001 307.036C572.21 307.036 574.002 305.237 574.002 303.018Z" fill="#76A4FF"/>
+        <path d="M469.002 421.018C469.002 418.799 467.21 417 465.001 417C462.791 417 461 418.799 461 421.018C461 423.237 462.791 425.036 465.001 425.036C467.21 425.036 469.002 423.237 469.002 421.018Z" fill="#76A4FF"/>
+        <path d="M682.002 447.018C682.002 444.799 680.21 443 678.001 443C675.791 443 674 444.799 674 447.018C674 449.237 675.791 451.036 678.001 451.036C680.21 451.036 682.002 449.237 682.002 447.018Z" fill="#76A4FF"/>
         
         <defs>
           <path id="line-3-def" d="M542.099 251C542.099 251 530.3 283.676 607.145 328.043C683.987 372.408 722.122 358.37 722.122 358.37"/>
