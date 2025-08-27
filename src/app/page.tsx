@@ -5,9 +5,10 @@ import ExampleSvg2 from '@/components/ExampleSvg2';
 import ExampleSvg3 from '@/components/ExampleSvg3';
 import ExampleSvg4 from '@/components/ExampleSvg4';
 import ExampleSvg5 from '@/components/ExampleSvg5';
+import ExampleSvg6 from '@/components/ExampleSvg6';
 
 export default function Home() {
-  const [svgIndex, setSvgIndex] = useState(3);
+  const [svgIndex, setSvgIndex] = useState(2);
 
   return (
     <div className="font-sans min-h-screen p-8 flex flex-col items-center justify-center relative bg-white">
@@ -29,6 +30,9 @@ export default function Home() {
           )}
           {svgIndex === 5 && (
             <ExampleSvg5 />
+          )}
+          {svgIndex === 6 && (
+            <ExampleSvg6 />
           )}
         </div>
       </div>
